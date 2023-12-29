@@ -98,9 +98,9 @@ const Gallery = () => {
               container: {
                 style: {
                   top: "unset",
-                  bottom: "2%",
+                  bottom: 0,
                   left: "unset",
-                  right: "18%",
+                  right: 0,
                 },
               },
             }}

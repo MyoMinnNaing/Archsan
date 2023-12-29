@@ -32,7 +32,7 @@ const VideoGallery = () => {
 
   return (
     <div className="container">
-      <div className=" pt-64">
+      <div className=" py-64">
         <div
           data-aos="fade-up"
           data-aos-once="true"

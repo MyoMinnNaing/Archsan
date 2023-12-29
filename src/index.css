@@ -11,24 +11,25 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .yarl__container {
-  background-color: rgba(52, 52, 52, 0.8);
-} */
 
-.yarl__counter {
-  bottom: 100%;
-  left: 75%;
-}
+
 
 .border-l-r {
-  border-left: 2px solid rgba(0, 0, 0, 0.05);
-  border-right: 2px solid rgba(0, 0, 0, 0.05);
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .border-bottom {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .border-left {
   border-left: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.contact .discuss {
+  background-image: url("https://shtheme.com/demosd/archsan/wp-content/uploads/2022/12/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 352px; */
 }

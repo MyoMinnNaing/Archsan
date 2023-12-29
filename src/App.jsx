@@ -3,6 +3,7 @@ import LineWrapper from "./component/UI/LineWrapper";
 import Home from "./component/Home/Home";
 import { Route, Routes } from "react-router-dom";
 import GalleryPage from "./component/Gallery/GalleryPage";
+import Contact from "./component/Contact/Contact";
 
 const App = () => {
   return (
