@@ -3,8 +3,8 @@ import LineWrapper from "../UI/LineWrapper";
 import GetInTouch from "./GetInTouch";
 import Header from "../UI/Header";
 import GoggleMap from "./GoggleMap";
-import ToDiscuss from "./ToDiscuss";
 import Footer from "./Footer";
+import ToDiscuss from "./ToDiscuss";
 
 function Contact() {
   return (
@@ -13,7 +13,7 @@ function Contact() {
       <Header />
       <GetInTouch />
       <GoggleMap />
-      {/* <ToDiscuss /> */}
+      <ToDiscuss />
       <Footer />
     </div>
   );

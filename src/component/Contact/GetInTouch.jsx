@@ -8,14 +8,14 @@ const GetInTouch = () => {
           {/* Heading */}
           <div className=" heading  mb-[60px]">
             <div className=" grid grid-cols-12  ">
-              <div className=" col-span-4 ps-[15px] pt-[5px]  pb-[15px] relative ">
+              <div className=" col-span-12 md:col-span-4 ps-[15px] pt-[5px]  pb-[15px] relative ">
                 <span className=" w-[90%] h-[1px] border-bottom absolute bottom-0"></span>
                 <span className=" inline-block w-[7px] h-[7px] bg-[#c5a47efc] rounded-full mr-2"></span>
                 <p className=" inline-block uppercase text-[12px] tracking-[3px]">
                   Contact
                 </p>
               </div>
-              <div className=" col-span-8 ">
+              <div className=" col-span-12 md:col-span-8 ">
                 <h1 className=" uppercase text-[#c5a47efc] text-[36px] ps-[15px] font-heading leading-[54px] tracking-[3px]">
                   Get In Touch
                 </h1>
@@ -25,8 +25,8 @@ const GetInTouch = () => {
 
           {/* Form */}
           <div className=" grid grid-cols-12">
-            <div className=" col-span-4"></div>
-            <div className=" col-span-4 px-[15px]">
+            <div className=" col-span-12  md:col-span-4"></div>
+            <div className=" col-span-12 md:col-span-4 px-[15px]">
               <p className=" text-[15px] text-[#777] leading-6 mb-[20px]">
                 1616 Broadway NY, New York 10001
                 <br />
@@ -83,7 +83,7 @@ const GetInTouch = () => {
                 </a>
               </div>
             </div>
-            <div className=" col-span-4 px-[15px]">
+            <div className=" col-span-12 md:col-span-4 px-[15px]">
               <h1 className=" font-heading text-[20px] text-[#1b1b1b] tracking-[2px] mb-[30px]">
                 HAVE A PROJECT? -
                 <span className=" text-[#c5a47efc]">LETS TALK</span>

@@ -4,16 +4,16 @@ const Footer = () => {
   return (
     <footer className="  pt-[90px]">
       <div className=" container">
-        <div className=" top">
+        <div className=" top mb-10 md:mb-0">
           <div className=" grid grid-cols-12">
-            <div className=" col-span-4 ps-[15px] pt-[5px]  pb-[15px] relative ">
+            <div className=" col-span-12 md:col-span-4 ps-[15px] pt-[5px]  pb-[15px] mb-5 md:mb-0 relative ">
               <span className=" w-[90%] h-[1px] border-bottom absolute bottom-0"></span>
               <span className=" inline-block w-[7px] h-[7px] bg-[#c5a47efc] rounded-full mr-2"></span>
               <p className=" inline-block uppercase text-[12px] tracking-[3px]">
                 Contact Us
               </p>
             </div>
-            <div className=" col-span-4 px-[15px]">
+            <div className="col-span-12 md:col-span-4 px-[15px]">
               <h1 className=" text-[24px] text-[#c5a47efc] tracking-[3px] font-heading">
                 NEW YORK OFFICE
               </h1>
@@ -61,7 +61,7 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className=" col-span-4 px-[15px]">
+            <div className="col-span-12 md:col-span-4 px-[15px]">
               <h1 className=" text-[24px] text-[#c5a47efc] tracking-[3px] font-heading">
                 DUBAI OFFICE
               </h1>
@@ -83,13 +83,13 @@ const Footer = () => {
         <div className=" bottom mb-[30px] px-[15px]">
           <div className=" container">
             <div className=" grid grid-cols-12 items-center">
-              <div className=" col-span-4">
+              <div className=" col-span-12 md:col-span-4 mb-3 md:mb-0 ">
                 <p className=" text-[#777777fc] text-[15px]">
                   © 2023 Architect. All right reserved.
                 </p>
               </div>
-              <div className=" col-span-8 ">
-                <p class="right float-right">
+              <div className=" col-span-12 md:col-span-8 ">
+                <p className="right  md:float-right">
                   <a className=" text-[#777777fc] text-[15px]" href="#">
                     Terms &amp; Conditions
                   </a>
