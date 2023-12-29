@@ -1,8 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Oswald:wght@300;400;500;600&display=swap");
+@import 'animate.css';
+
+@font-face {
+  font-family: "thermify";
+  src: url(/fonts/themify.ttf);
+}
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .yarl__container {
+  background-color: rgba(52, 52, 52, 0.8);
+} */
+
+.yarl__counter {
+  bottom: 100%;
+  left: 75%;
+}
 
 .border-l-r {
   border-left: 2px solid rgba(0, 0, 0, 0.05);
