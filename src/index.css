@@ -23,3 +23,7 @@
   background-repeat: no-repeat;
   /* height: 352px; */
 }
+
+.active {
+  color: #c5a47efc;
+}
