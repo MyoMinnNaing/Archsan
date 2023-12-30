@@ -32,19 +32,19 @@ const VideoGallery = () => {
 
   return (
     <div className="container">
-      <div className=" py-64">
+      <div className=" py-32">
         <div
           data-aos="fade-up"
           data-aos-once="true"
           className="flex items-start flex-col md:flex-row mb-20"
         >
           <div className=" w-full md:w-[34%]">
-            <div className=" border-b-[1px] border-neutral-200 uppercase text-sm tracking-widest mb-4 mx-3 px-5 pt-2 pb-3 relative before:w-[6px] before:h-[6px] before:bg-theme-color before:absolute before:rounded-full before:top-[15px] before:left-1">
+            <div className=" border-b-[1px] border-neutral-100 uppercase text-sm tracking-widest mb-4 mx-3 px-5 pt-2 pb-3 relative before:w-[6px] before:h-[6px] before:bg-theme-color before:absolute before:rounded-full before:top-[15px] before:left-1">
               Videos
             </div>
           </div>
           <div className="w-full md:w-[66%] px-3">
-            <h2 className=" uppercase text-4xl font-heading tracking-wider mb-7">
+            <h2 className=" uppercase text-4xl font-heading leading-[56px] tracking-wider mb-7">
               Video <span className=" text-theme-color">Gallery</span>
             </h2>
             <p className=" text-neutral-500">
