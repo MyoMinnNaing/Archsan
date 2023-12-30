@@ -81,14 +81,62 @@ const News = () => {
 
       <div className="news">
         <div className=" grid grid-cols-12">
-          <div className=" col-span-8 px-[15px]">
+          <div className=" col-span-12 md:col-span-8 px-[15px]">
             {news.map((el) => (
               <New key={el.id} new={el} />
             ))}
+
+            {/* Pagination */}
+            <div className=" pagination">
+              <ul className=" pt-[30px] pb-[60px] flex gap-2 justify-center items-center ">
+                <li className=" flex justify-center items-center w-[40px] h-[40px] rounded-full border border-[#777] ">
+                  <a href="#" className=" text-[15px] text-[#777]">
+                    1
+                  </a>
+                </li>
+
+                <li className=" flex justify-center items-center w-[40px] h-[40px] rounded-full duration-300 hover:border hover:border-[#777] ">
+                  <a href="#" className=" text-[15px] text-[#777]">
+                    2
+                  </a>
+                </li>
+
+                <li className=" flex justify-center items-center w-[40px] h-[40px] rounded-full duration-300 hover:border hover:border-[#777] ">
+                  <a href="#" className=" text-[15px] text-[#777]">
+                    3
+                  </a>
+                </li>
+
+                <li className=" flex justify-center items-center w-[40px] h-[40px] rounded-full duration-300 hover:border hover:border-[#777] ">
+                  <a href="#" className=" text-[15px] text-[#777]">
+                    4
+                  </a>
+                </li>
+
+                <li className=" flex justify-center items-center w-[40px] h-[40px] rounded-full duration-300 hover:border hover:border-[#777] ">
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="#777"
+                      className="w-4 h-4"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
 
           {/* Side bar */}
-          <div className=" col-span-4 px-[15px]">
+          <div className=" col-span-12 md:col-span-4 px-[15px]">
             <div className="sidebar">
               <div className=" search relative">
                 <input

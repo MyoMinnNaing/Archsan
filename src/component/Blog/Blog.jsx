@@ -5,7 +5,7 @@ import Footer from "../Contact/Footer";
 const Blog = () => {
   return (
     <main id="blog1-section ">
-      <section className=" py-[120px]">
+      <section className=" py-[120px] border-bottom">
         <News />
       </section>
 
