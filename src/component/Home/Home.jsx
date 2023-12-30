@@ -6,8 +6,8 @@ import LineWrapper from "../UI/LineWrapper";
 const Home = () => {
   return (
     <div className="  min-h-screen relative">
-      <Header />
       <LineWrapper />
+      <Header />
       <h1>home</h1>
 
       <Footer />
