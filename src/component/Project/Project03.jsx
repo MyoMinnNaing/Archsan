@@ -56,9 +56,11 @@ const Project03 = () => {
               <div>
                 <a
                   href=""
-                  className="relative pb-0.5 -mb-0.5 border-b border-bg-[#0000001a] text-[#c5a47e] inline-block hover:text-[#1b1b1b]"
+                  className="relative pb-0.5 -mb-0.5 border-b border-bg-[#0000001a] group duration-500 text-[#c5a47e] inline-block hover:text-[#1b1b1b]"
                 >
-                  <span className="before:content-[''] absolute h-[1px] left-0 bg-[#c5a47e] duration-500 ease-in-out"></span> View Project
+                  View Project
+                  {/* <span className="ease absolute right-0 top-0 h-0 shadow-xl w-0 border-r-4 border-blue-600 transition-all duration-500 group-hover:h-full"></span> */}
+                  <span className="ease absolute bottom-0 left-0 h-0 w-0 border-b-2 border-[#c5a47e] transition-all duration-500 group-hover:w-full"></span>
                 </a>
               </div>
             </div>
@@ -67,8 +69,7 @@ const Project03 = () => {
       </div>
 
       <div className="mt-[120px] w-[1140px] mx-auto grid grid-cols-12">
-
-      <div className="col-span-4 flex items-center">
+        <div className="col-span-4 flex items-center">
           <div className="p-[30px] w-full">
             <div className="table-cell  align-middle">
               <h6 className="text-[13px] text-[#777] tracking-[3px] mb-[15px] font-normal leading-6">
@@ -80,9 +81,10 @@ const Project03 = () => {
               <div>
                 <a
                   href=""
-                  className="relative pb-0.5 -mb-0.5 border-b border-bg-[#0000001a] text-[#c5a47e] inline-block hover:text-[#1b1b1b]"
+                  className="relative pb-0.5 -mb-0.5 border-b group border-bg-[#0000001a] text-[#c5a47e] inline-block hover:text-[#1b1b1b]"
                 >
-                  <span className="before:content-[''] absolute h-[1px] left-0 bg-[#c5a47e] duration-500 ease-in-out"></span> View Project
+                  <span className="ease absolute bottom-0 left-0 h-0 w-0 border-b-2 border-[#c5a47e] transition-all duration-500 group-hover:w-full"></span>
+                  View Project
                 </a>
               </div>
             </div>
@@ -100,7 +102,6 @@ const Project03 = () => {
             </a>
           </div>
         </div>
-       
       </div>
 
       <div className="mt-[120px] w-[1140px] mx-auto grid grid-cols-12">
@@ -127,16 +128,16 @@ const Project03 = () => {
               <div>
                 <a
                   href=""
-                  className="relative pb-0.5 -mb-0.5 border-b border-bg-[#0000001a] text-[#c5a47e] inline-block hover:text-[#1b1b1b]"
+                  className="relative pb-0.5 -mb-0.5 border-b group border-bg-[#0000001a] text-[#c5a47e] inline-block hover:text-[#1b1b1b]"
                 >
-                  <span className="before:content-[''] absolute h-[1px] left-0 bg-[#c5a47e] duration-500 ease-in-out"></span> View Project
+                  <span className="ease absolute bottom-0 left-0 h-0 w-0 border-b-2 border-[#c5a47e] transition-all duration-500 group-hover:w-full"></span>
+                  View Project
                 </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-
     </section>
   );
 };
