@@ -56,19 +56,19 @@ const Gallery = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-4 mx-3 select-none">
+        <div className="flex flex-wrap mx-3 justify-between select-none">
           {images.map((image, index) => (
             <div
               onClick={() => openLightbox(index)}
               key={index}
               data-aos="fade-up"
-              data-aos-delay={`${100 + index * 200}`}
+              data-aos-delay={`${index * 300}`}
               data-aos-once="true"
               className={`${
                 index < 3
-                  ? "w-full md:w-[31.5%] lg:w-[32%] xl:w-[32.3%]"
-                  : "w-full md:w-[48.3%] lg:w-[49%] xl:w-[49.2%]"
-              } relative group overflow-hidden after:absolute hover:after:bg-black after:block after:w-full after:h-full after:top-0 after:left-0 after:opacity-50 after:ease-img-out-expo after:transition-all after:duration-300 cursor-pointer`}
+                  ? "w-full md:w-[31.6%]"
+                  : "w-full md:w-[48.5%]"
+              } relative group overflow-hidden after:absolute hover:after:bg-black after:block after:w-full after:h-full after:top-0 after:left-0 after:opacity-50 after:ease-img-out-expo after:transition-all after:duration-300 cursor-pointer mb-7`}
             >
               <img
                 src={image}

@@ -57,18 +57,18 @@ const VideoGallery = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-4 mx-3 select-none">
+        <div className="flex flex-wrap mx-3 justify-between select-none">
           {images.map((image, index) => (
             <div
               data-aos="fade-up"
-              data-aos-delay={`${index * 500}`}
+              data-aos-delay={`${index * 400}`}
               data-aos-once="true"
               key={index}
               className={`${
                 index < 2
-                  ? "w-full md:w-[48.3%] lg:w-[49%] xl:w-[49.2%]"
-                  : "w-full md:w-[31.5%] lg:w-[32%] xl:w-[32.3%]"
-              } relative group overflow-hidden after:absolute hover:after:bg-black after:block after:w-full after:h-full after:top-0 after:left-0 after:opacity-50 after:ease-img-out-expo after:transition-all after:duration-300 cursor-pointer`}
+                  ? "w-full md:w-[48.5%]"
+                  : "w-full md:w-[31.6%]"
+              } relative group overflow-hidden after:absolute hover:after:bg-black after:block after:w-full after:h-full after:top-0 after:left-0 after:opacity-50 after:ease-img-out-expo after:transition-all after:duration-300 cursor-pointer mb-7`}
             >
               <img
                 src={image}

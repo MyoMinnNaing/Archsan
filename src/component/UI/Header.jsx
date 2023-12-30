@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -57,7 +56,7 @@ const Header = () => {
             <li className=" mb-[10px] pb-[10px]">About</li>
             <li className=" mb-[10px] pb-[10px]">Service</li>
             <li className=" mb-[10px] pb-[10px]">Projects</li>
-            <li className=" mb-[10px] pb-[10px]"><Link to="/gallery">Gallery</Link></li>
+            <li className=" mb-[10px] pb-[10px]">Gallery</li>
             <li className=" mb-[10px] pb-[10px]">Pages</li>
             <li className=" mb-[10px] pb-[10px]">Blog</li>
             <li className=" mb-[10px] pb-[10px]">Contact</li>
