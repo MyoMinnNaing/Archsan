@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,13 +14,13 @@ const Header = () => {
       <div className="  container px-[15px] py-[22px]">
         <div className=" grid grid-cols-12">
           <div className=" col-span-6">
-            <a href="">
+            <NavLink to="/">
               <img
                 className=" w-[160px]"
                 src="https://shtheme.com/demosd/archsan/wp-content/uploads/2023/03/logo.png"
                 alt="logo"
               />
-            </a>
+            </NavLink>
           </div>
           <div className=" col-span-6  flex justify-end">
             <button onClick={toggleHandler}>
@@ -52,14 +53,30 @@ const Header = () => {
       >
         <nav className=" mt-10">
           <ul className=" text-[#777] font-heading text-[15px] uppercase tracking-[.25em]">
-            <li className=" mb-[10px] pb-[10px] ">Home</li>
-            <li className=" mb-[10px] pb-[10px]">About</li>
-            <li className=" mb-[10px] pb-[10px]">Service</li>
-            <li className=" mb-[10px] pb-[10px]">Projects</li>
-            <li className=" mb-[10px] pb-[10px]">Gallery</li>
-            <li className=" mb-[10px] pb-[10px]">Pages</li>
-            <li className=" mb-[10px] pb-[10px]">Blog</li>
-            <li className=" mb-[10px] pb-[10px]">Contact</li>
+            <li className=" mb-[10px] pb-[10px] ">
+              <NavLink to="/"> Home</NavLink>
+            </li>
+            <li className=" mb-[10px] pb-[10px]">
+              <NavLink to="/about"> About</NavLink>
+            </li>
+            <li className=" mb-[10px] pb-[10px]">
+              <NavLink to="/service"> Service</NavLink>
+            </li>
+            <li className=" mb-[10px] pb-[10px]">
+              <NavLink to="/project"> Projects</NavLink>
+            </li>
+            <li className=" mb-[10px] pb-[10px]">
+              <NavLink to="/gallery"> Gallery</NavLink>
+            </li>
+            <li className=" mb-[10px] pb-[10px]">
+              <NavLink to="/page"> Pages</NavLink>
+            </li>
+            <li className=" mb-[10px] pb-[10px]">
+              <NavLink to="/blog"> Blog</NavLink>
+            </li>
+            <li className=" mb-[10px] pb-[10px]">
+              <NavLink to="/contact"> Contact</NavLink>
+            </li>
           </ul>
         </nav>
       </div>
