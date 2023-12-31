@@ -1,5 +1,6 @@
 import React from "react";
 import Home from "./component/Home/Home";
+import GalleryPage from "./component/Gallery/GalleryPage";
 import Contact from "./component/Contact/Contact";
 import Blog from "./component/Blog/Blog";
 import { Route, Routes } from "react-router-dom";
@@ -12,6 +13,7 @@ import Page from "./component/Page/Page";
 const App = () => {
   return (
     <>
+      <GalleryPage />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

@@ -1,12 +1,14 @@
 import React from "react";
 import Footer from "../Contact/Footer";
 import Header from "../UI/Header";
+import Gallery from "../Gallery/Gallery";
+import Contact from "../Contact/Contact";
 import LineWrapper from "../UI/LineWrapper";
 
 const Home = () => {
   return (
-    <div className="  min-h-screen relative">
-      <LineWrapper />
+    <div className=" relative">
+      <LineWrapper/>
       <Header />
       <h1>home</h1>
 

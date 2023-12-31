@@ -10,7 +10,7 @@ function Contact() {
   return (
     <div className=" min-h-screen">
       <LineWrapper />
-      <Header />
+      {/* <Header /> */}
       <GetInTouch />
       <GoggleMap />
       <ToDiscuss />
