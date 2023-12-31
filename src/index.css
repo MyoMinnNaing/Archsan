@@ -35,3 +35,13 @@
   background-repeat: no-repeat;
   /* height: 352px; */
 }
+
+.outline-num {
+  font-size: 48px;
+  font-family: "Oswald", "sans-serif";
+  line-height: 48px;
+  font-weight: 400;
+  color: transparent;
+  -webkit-text-stroke: 1px #c6a37c;
+  opacity: .8;
+}
