@@ -5,6 +5,8 @@ import Contact from "./component/Contact/Contact";
 import About from "./component/About/About";
 import Project from "./component/Project/Project";
 
+
+
 const App = () => {
   return (
     <>
@@ -12,6 +14,7 @@ const App = () => {
       {/* <Contact /> */}
       {/* <About /> */}
       <Project />
+      {/* <ImageCarousel /> */}
     </>
   );
 };
