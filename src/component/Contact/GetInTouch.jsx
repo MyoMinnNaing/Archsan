@@ -92,7 +92,7 @@ const GetInTouch = () => {
                 <input
                   type="text"
                   placeholder="Your Name *"
-                  className=" w-full border-bottom font-normal focus-visible:outline-none pb-[15px] mb-5  ps-2 text-[15px] text-[#777]  "
+                  className=" w-full border-bottom font-normal focus-visible:outline-none  pb-[15px] mb-5  ps-2 text-[15px] text-[#777]  "
                 />
 
                 <input

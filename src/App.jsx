@@ -6,9 +6,7 @@ import About from "./component/About/About";
 import Project from "./component/Project/Project";
 import Blog from "./component/Blog/Blog";
 import { Route, Routes } from "react-router-dom";
-import About from "./component/About/About";
 import Service from "./component/Service/Service";
-import Project from "./component/Project/Project";
 import Page from "./component/Page/Page";
 
 const App = () => {
