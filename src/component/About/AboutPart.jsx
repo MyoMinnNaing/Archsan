@@ -235,6 +235,9 @@ const AboutPart = () => {
 
                       mediaQuery: "min",
                       breakpoints: {
+                        375: {
+                          perPage: 1,
+                        },
                         640: {
                           perPage: 2,
                         },
