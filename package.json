@@ -22,7 +22,6 @@
     "react-router-dom": "^6.21.1",
     "react-spring-lightbox": "^1.8.0",
     "yet-another-react-lightbox": "^3.15.6"
-    "react-router-dom": "^6.21.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",

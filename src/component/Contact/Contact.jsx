@@ -9,8 +9,8 @@ import LineWrapper from "../UI/LineWrapper";
 function Contact() {
   return (
     <div className=" min-h-screen">
+      <Header />
       <LineWrapper />
-      {/* <Header /> */}
       <GetInTouch />
       <GoggleMap />
       <ToDiscuss />

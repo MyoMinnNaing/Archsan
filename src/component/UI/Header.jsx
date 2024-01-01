@@ -10,7 +10,7 @@ const Header = () => {
     setOpenDrawer(!openDrawer);
   };
   return (
-    <header className=" border-bottom relative z-[1000]">
+    <header className=" border-bottom fixed top-0 left-0 w-full bg-white z-[1000]">
       <div className="  container px-[15px] py-[22px]">
         <div className=" grid grid-cols-12">
           <div className=" col-span-6">
@@ -47,7 +47,7 @@ const Header = () => {
       </div>
 
       <div
-        className={`  w-[340px] bg-white   fixed z-50 top-[96px] right-0 min-h-screen px-[40px] duration-300 ${
+        className={`  w-[340px] bg-white   fixed z-50  right-0 min-h-screen px-[40px] duration-300 ${
           openDrawer && "translate-x-full"
         }`}
       >
