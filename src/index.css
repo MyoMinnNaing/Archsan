@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Oswald:wght@300;400;500;600&display=swap");
+@import 'animate.css';
+
+@font-face {
+  font-family: "thermify";
+  src: url(/fonts/themify.ttf);
+}
+
 
 @import "../node_modules/animate.css/animate.min.css";
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
@@ -6,6 +13,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
 
 .border-l-r {
   border-left: 1px solid rgba(0, 0, 0, 0.05);
