@@ -37,42 +37,8 @@ const ProjectPage = ({images}) => {
             </div>
           </div>
 
-          <div className="flex justify-center">
-            <div className="px-3">
-              <div className="block w-full z-10">
-               <div className="relative overflow-hidden">
-               <div
-                  className="flex transition-transform duration-300 w-[12606px] ease-in-out transform"
-                  style={{ transform: `translateX(-${currentImage * 100}%)` }}
-                >
-                  {images.map(({image, index}) => (
-                    <div key={index} className="w-[1116px]">
-                      <img
-                        src={image}
-                        alt={`Image ${index + 1}`}
-                        className="w-full h-auto block rounded-lg"
-                      />
-                    </div>
-                  ))}
-                </div>
-               </div>
 
-
-                <button
-                  onClick={prevImage}
-                  className="absolute right-4 top-1/3 transform -translate-y-1/2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
-                >
-                  Prev
-                </button>
-                <button
-                  onClick={nextImage}
-                  className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-r"
-                >
-                  Next
-                </button>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </section>
     </div>
