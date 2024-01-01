@@ -8,7 +8,7 @@ const AboutPart = () => {
       <div className="hello ">
         <div className="relative py-[120px]">
           <div className="min:w-[667px] xl:w-[1140px] grid grid-cols-12 mx-auto">
-            <div className="col-span-12 xl:col-span-4 mb-[30px] ps-3 pe-3">
+            <div className="col-span-12 md:col-span-4 mb-[30px] ps-3 pe-3">
               <div
                 className="relative text-xs leading-3 tracking-widest font-normal text-[#1b1b1b] border-bottom 
              flex items-center pt-[5px] pb-[15px] ps-[15px]"
@@ -22,7 +22,7 @@ const AboutPart = () => {
               </div>
             </div>
 
-            <div className="col-span-12 xl:col-span-4 mb-[30px] ps-3 pe-3">
+            <div className="col-span-12 md:col-span-4 mb-[30px] ps-3 pe-3">
               <div className="font-heading text-[#c5a47e] text-4xl font-normal mb-7 leading-6 tracking-wider [word-spacing:5px]">
                 ARCSA <span className="text-[#1b1b1b]">ABOUT</span>
               </div>
@@ -59,7 +59,7 @@ const AboutPart = () => {
               </div>
             </div>
 
-            <div className="col-span-12 xl:col-span-4 ps-3 pe-3">
+            <div className="col-span-12 md:col-span-4 ps-3 pe-3">
               <div className="flex flex-wrap pb-[30px] ps-[40px] overflow-hidden">
                 <div className="relative inline-block w-full mb-5 align-middle">
                   <img
