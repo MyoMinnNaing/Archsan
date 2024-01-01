@@ -22,8 +22,7 @@
   height: 786px;
 }
 
-.splide__slide .slide-1 {
-  background-image: url("https://shtheme.com/demosd/archsan/wp-content/uploads/2022/12/1.jpg");
+.splide__slide .slide {
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -33,43 +32,26 @@
   align-items: center;
 }
 
-.splide__slide .slide-2 {
-  background-image: url("https://shtheme.com/demosd/archsan/wp-content/uploads/2022/12/2.jpg");
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-
-  display: flex;
-  align-items: center;
-}
-.splide__slide .slide-3 {
-  background-image: url("https://shtheme.com/demosd/archsan/wp-content/uploads/2022/12/3.jpg");
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-
-  display: flex;
-  align-items: center;
+.splide__arrows {
+  position: absolute;
+  right: 280px;
+  bottom: 75px;
 }
 
 .splide__arrow--prev {
-  top: 36em;
   border-radius: 20px;
   border: 1px solid #777;
   height: 40px;
   width: 40px;
-  left: 77em;
+  left: -2em;
 }
 
 .splide__arrow--next {
-  top: 36em;
   border-radius: 20px;
   border: 1px solid #777;
   height: 40px;
   width: 40px;
-  right: 13em;
+  right: -2.5em;
 }
 
 .splide__arrow svg {

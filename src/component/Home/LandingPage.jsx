@@ -1,8 +1,43 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import Slider from "./Slider";
 
 const LandingPage = () => {
+  const infos = [
+    {
+      id: 1,
+      project: " Project P.01",
+      title: "Ultra-Modern House Design",
+      description: `Architecture viverra tristique justo duis vitae diaminte
+      neque nivamus aestan ateuene artine aringianu the miss
+      finibus viverra lacus fermen.`,
+      bgImage:
+        "https://shtheme.com/demosd/archsan/wp-content/uploads/2022/12/1.jpg",
+    },
+
+    {
+      id: 2,
+      project: " Project P.02",
+      title: " ULTRA-LUXURIOUS VILLA",
+      description: `Architecture viverra tristique justo duis vitae diaminte
+      neque nivamus aestan ateuene artine aringianu the miss
+      finibus viverra lacus fermen.`,
+      bgImage:
+        "https://shtheme.com/demosd/archsan/wp-content/uploads/2022/12/2.jpg",
+    },
+
+    {
+      id: 3,
+      project: " Project P.03",
+      title: "   MODERNITY IN THE NATURE",
+      description: `Architecture viverra tristique justo duis vitae diaminte
+      neque nivamus aestan ateuene artine aringianu the miss
+      finibus viverra lacus fermen.`,
+      bgImage:
+        "https://shtheme.com/demosd/archsan/wp-content/uploads/2022/12/3.jpg",
+    },
+  ];
   return (
     <Splide
       hasTrack={false}
@@ -15,110 +50,13 @@ const LandingPage = () => {
       }}
     >
       <SplideTrack>
-        <SplideSlide>
-          <div className="slide-1  relative">
-            <div className=" w-full h-full bg-black opacity-50 absolute top-0 left-0"></div>
-            <div className="container relative">
-              <div className=" grid grid-cols-12 text-white -mt-[15px] ">
-                <div className=" col-span-7  ">
-                  <div className=" mb-[20px]  animate__animated animate__fadeInUp animate__faster ">
-                    <span className=" inline-block w-[7px] h-[7px] bg-[#c5a47efc] rounded-full mr-2"></span>
-                    <h4 className=" inline-block uppercase text-[12px] tracking-[3px]">
-                      Project P.01
-                    </h4>
-                  </div>
-
-                  <h1 className=" animate__animated animate__fadeInUp animate__fast text-[48px] font-heading uppercase leading-[1.2em] tracking-[3px] mb-[20px]">
-                    Ultra-Modern House Design
-                  </h1>
-
-                  <p className=" animate__animated animate__fadeInUp animate__delay-1s text-[15px] leading-[1.75em]  mb-[30px]">
-                    Architecture viverra tristique justo duis vitae diaminte
-                    neque nivamus aestan ateuene artine aringianu the miss
-                    finibus viverra lacus fermen.
-                  </p>
-
-                  <a
-                    href=""
-                    className="button-light  animate__animated animate__fadeInUp animate__delay-2s text-[15px] px-[30px] py-[14px] border rounded-full duration-300 hover:bg-white hover:text-black "
-                  >
-                    View Project
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SplideSlide>
-
-        <SplideSlide>
-          <div className="slide-2  relative">
-            <div className=" w-full h-full bg-black opacity-50 absolute top-0 left-0"></div>
-            <div className="container relative">
-              <div className=" grid grid-cols-12 text-white -mt-[15px] ">
-                <div className=" col-span-7  ">
-                  <div className=" mb-[20px]  animate__animated animate__fadeInUp">
-                    <span className=" inline-block w-[7px] h-[7px] bg-[#c5a47efc] rounded-full mr-2"></span>
-                    <h4 className=" inline-block uppercase text-[12px] tracking-[3px]">
-                      Project P.02
-                    </h4>
-                  </div>
-
-                  <h1 className=" animate__animated animate__fadeInUp text-[48px] font-heading uppercase leading-[1.2em] tracking-[3px] mb-[20px]">
-                    ULTRA-LUXURIOUS VILLA
-                  </h1>
-
-                  <p className=" animate__animated animate__fadeInUp text-[15px] leading-[1.75em]  mb-[30px]">
-                    Architecture viverra tristique justo duis vitae diaminte
-                    neque nivamus aestan ateuene artine aringianu the miss
-                    finibus viverra lacus fermen.
-                  </p>
-
-                  <a
-                    href=""
-                    className="button-light  animate__animated animate__fadeInUp text-[15px] px-[30px] py-[14px] border rounded-full duration-300 hover:bg-white hover:text-black "
-                  >
-                    View Project
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SplideSlide>
-
-        <SplideSlide>
-          <div className="slide-3  relative">
-            <div className=" w-full h-full bg-black opacity-50 absolute top-0 left-0"></div>
-            <div className="container relative">
-              <div className=" grid grid-cols-12 text-white -mt-[15px] ">
-                <div className=" col-span-7  ">
-                  <div className=" mb-[20px] animate__animated animate__fadeInUp">
-                    <span className=" inline-block w-[7px] h-[7px] bg-[#c5a47efc] rounded-full mr-2"></span>
-                    <h4 className=" inline-block uppercase text-[12px] tracking-[3px]">
-                      Project P.02
-                    </h4>
-                  </div>
-
-                  <h1 className=" animate__animated animate__fadeInUp text-[48px] font-heading uppercase leading-[1.2em] tracking-[3px] mb-[20px]">
-                    MODERNITY IN THE NATURE
-                  </h1>
-
-                  <p className=" animate__animated animate__fadeInUp text-[15px] leading-[1.75em]  mb-[30px]">
-                    Architecture viverra tristique justo duis vitae diaminte
-                    neque nivamus aestan ateuene artine aringianu the miss
-                    finibus viverra lacus fermen.
-                  </p>
-
-                  <a
-                    href=""
-                    className="button-light  animate__animated animate__fadeInUp text-[15px] px-[30px] py-[14px] border rounded-full duration-300 hover:bg-white hover:text-black "
-                  >
-                    View Project
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SplideSlide>
+        {infos.map((info) => {
+          return (
+            <SplideSlide key={info.id}>
+              <Slider info={info} />
+            </SplideSlide>
+          );
+        })}
       </SplideTrack>
     </Splide>
   );
