@@ -8,9 +8,9 @@ import Project from "./component/Project/Project";
 const App = () => {
   return (
     <>
+      <About />
       {/* <Home /> */}
       {/* <Contact /> */}
-      <About />
       {/* <Project /> */}
     </>
   );

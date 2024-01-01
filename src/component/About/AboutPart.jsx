@@ -1,9 +1,11 @@
 import React from "react";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 
 const AboutPart = () => {
   return (
-    <div>
-      <div>
+    <>
+      <div className="hello ">
         <div className="relative py-[120px]">
           <div className="min:w-[667px] xl:w-[1140px] grid grid-cols-12 mx-auto">
             <div className="col-span-12 xl:col-span-4 mb-[30px] ps-3 pe-3">
@@ -184,12 +186,12 @@ const AboutPart = () => {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
 
+        {/* Team Member Section */}
         <div>
           <div>
             <div className="relative py-[120px]">
@@ -224,337 +226,363 @@ const AboutPart = () => {
                 {/* Card carousel */}
 
                 <div>
-                  <div className="relative z-[1] block">
-                    <div className="relative overflow-hidden">
-                      <div className="min-w-[667px] lg:w-[4545px] block lg:flex relative [translate3d:(-1136px,0px,0px)] ease-in-out	">
-                        <div className="w-[300px] lg:w-358.667px  me-5 float-left">
-                          <div className="ps-10 pb-[30px] overflow-hidden">
-                            <div className="relative inline-block align-middle w-full mb-5">
-                              <img
-                                className="h-auto"
-                                src="https://shtheme.com/demosd/archsan/wp-content/uploads/2023/03/1.jpg"
-                                alt=""
-                              />
+                  <Splide
+                    options={{
+                      rewind: true,
+                      perPage: 3,
+                      arrows: false,
+                      speed: 1000,
 
-                              <div className="absolute -left-[7px] bottom-0 origin-bottom-left -rotate-90">
-                                <h4
-                                  className="flex items-center text-[15px] font-normal [word-spacing:5px] ps-[15px]
+                      mediaQuery: "min",
+                      breakpoints: {
+                        640: {
+                          perPage: 2,
+                        },
+
+                        1024: {
+                          perPage: 3,
+                        },
+                      },
+                    }}
+                    aria-label="My Favorite Images"
+                  >
+                    <SplideSlide>
+                      {/* Item 1 */}
+                      <div className=" lg:w-358.667px  me-5 float-left">
+                        <div className="ps-10 pb-[30px] overflow-hidden">
+                          <div className="relative inline-block align-middle w-full mb-5">
+                            <img
+                              className="h-[316px]"
+                              src="https://shtheme.com/demosd/archsan/wp-content/uploads/2023/03/1.jpg"
+                              alt=""
+                            />
+
+                            <div className="absolute -left-[7px] bottom-0 origin-bottom-left -rotate-90">
+                              <h4
+                                className="flex items-center text-[15px] font-normal [word-spacing:5px] ps-[15px]
                                  ms-[10px] text-[#777] tracking-wider"
-                                >
-                                  <span
-                                    className="before:content-[''] top-[55%] left-[5px] -translate-y-[50%] w-[5px] h-[5px] 
+                              >
+                                <span
+                                  className="before:content-[''] top-[55%] left-[5px] -translate-y-[50%] w-[5px] h-[5px] 
                                     absolute rounded-full bg-[#c5a47e] "
-                                  ></span>
-                                  STELLA ATHENA
-                                </h4>
-                              </div>
+                                ></span>
+                                STELLA ATHENA
+                              </h4>
                             </div>
-
-                            <ul className=" text-center mb-2.5">
-                              <li className="inline-block px-[5px]">
-                                <a href="#" className="text-[#c5a47e]">
-                                  <i className="bi bi-dribbble"></i>
-                                </a>
-                              </li>
-                              <li className="inline-block px-[5px]">
-                                <a href="#" className="text-[#c5a47e]">
-                                  <i className="bi bi-twitter"></i>
-                                </a>
-                              </li>
-                              <li className="inline-block px-[5px]">
-                                <a href="#" className="text-[#c5a47e]">
-                                  <i className="bi bi-instagram"></i>
-                                </a>
-                              </li>
-                              <li className="inline-block px-[5px]">
-                                <a href="#" className="text-[#c5a47e]">
-                                  <i className="bi bi-linkedin"></i>
-                                </a>
-                              </li>
-                            </ul>
-
-                            <p className="text-center text-[15px] font-normal text-[#777] mb-5 leading-7">
-                              dipl. Arch ETH/SIA
-                            </p>
                           </div>
-                        </div>
 
-                        <div className="w-[300px] lg:w-358.667px  me-5 float-left">
-                          <div className="ps-10 pb-[30px] overflow-hidden">
-                            <div className="relative inline-block align-middle w-full mb-5">
-                              <img
-                                className="h-auto"
-                                src="https://duruthemes.com/demo/html/archsan/light/images/team/7.jpg"
-                                alt=""
-                              />
+                          <ul className=" text-center mb-2.5">
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-dribbble"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-twitter"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-instagram"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-linkedin"></i>
+                              </a>
+                            </li>
+                          </ul>
 
-                              <div className="absolute -left-[7px] bottom-0 origin-bottom-left -rotate-90">
-                                <h4
-                                  className="flex items-center text-[15px] font-normal [word-spacing:5px] ps-[15px]
-                                 ms-[10px] text-[#777] tracking-wider"
-                                >
-                                  <span
-                                    className="before:content-[''] top-[55%] left-[5px] -translate-y-[50%] w-[5px] h-[5px] 
-                                    absolute rounded-full bg-[#c5a47e] "
-                                  ></span>
-                                  OLIVIA BROWN
-                                </h4>
-                              </div>
-                            </div>
-
-                            <ul className=" text-center mb-2.5">
-                              <li className="inline-block px-[5px]">
-                                <a href="#" className="text-[#c5a47e]">
-                                  <i className="bi bi-dribbble"></i>
-                                </a>
-                              </li>
-                              <li className="inline-block px-[5px]">
-                                <a href="#" className="text-[#c5a47e]">
-                                  <i className="bi bi-twitter"></i>
-                                </a>
-                              </li>
-                              <li className="inline-block px-[5px]">
-                                <a href="#" className="text-[#c5a47e]">
-                                  <i className="bi bi-instagram"></i>
-                                </a>
-                              </li>
-                              <li className="inline-block px-[5px]">
-                                <a href="#" className="text-[#c5a47e]">
-                                  <i className="bi bi-linkedin"></i>
-                                </a>
-                              </li>
-                            </ul>
-
-                            <p className="text-center text-[15px] font-normal text-[#777] mb-5 leading-7">
-                              M.A. FH in Architecture
-                            </p>
-                          </div>
-                        </div>
-
-                        <div className="w-[300px] lg:w-358.667px me-5 float-left">
-                          <div className="ps-10 pb-[30px] overflow-hidden">
-                            <div className="relative inline-block align-middle w-full mb-5">
-                              <img
-                                className="h-auto"
-                                src="https://duruthemes.com/demo/html/archsan/light/images/team/11.jpg"
-                                alt=""
-                              />
-
-                              <div className="absolute -left-[7px] bottom-0 origin-bottom-left -rotate-90">
-                                <h4
-                                  className="flex items-center text-[15px] font-normal [word-spacing:5px] ps-[15px]
-                                 ms-[10px] text-[#777] tracking-wider"
-                                >
-                                  <span
-                                    className="before:content-[''] top-[55%] left-[5px] -translate-y-[50%] w-[5px] h-[5px] 
-                                    absolute rounded-full bg-[#c5a47e] "
-                                  ></span>
-                                  YVONNE COLM
-                                </h4>
-                              </div>
-                            </div>
-
-                            <ul className="text-center mb-2.5">
-                              <li className="inline-block px-[5px]">
-                                <a href="#" className="text-[#c5a47e]">
-                                  <i className="bi bi-dribbble"></i>
-                                </a>
-                              </li>
-                              <li className="inline-block px-[5px]">
-                                <a href="#" className="text-[#c5a47e]">
-                                  <i className="bi bi-twitter"></i>
-                                </a>
-                              </li>
-                              <li className="inline-block px-[5px]">
-                                <a href="#" className="text-[#c5a47e]">
-                                  <i className="bi bi-instagram"></i>
-                                </a>
-                              </li>
-                              <li className="inline-block px-[5px]">
-                                <a href="#" className="text-[#c5a47e]">
-                                  <i className="bi bi-linkedin"></i>
-                                </a>
-                              </li>
-                            </ul>
-
-                            <p className="text-center text-[15px] font-normal text-[#777] mb-5 leading-7">
-                              Interior Designer
-                            </p>
-                          </div>
+                          <p className="text-center text-[15px] font-normal text-[#777] mb-5 leading-7">
+                            dipl. Arch ETH/SIA
+                          </p>
                         </div>
                       </div>
-                    </div>
-                  </div>
+                    </SplideSlide>
 
-                  <div className="block text-center leading-3">
-                    <div className="inline-block cursor-pointer active">
-                      <span className="bg-[#c5a47e] border border-[#c5a47e] block w-3 h-3 rounded-full mx-[3px]"></span>
-                    </div>
-                    <div className="inline-block cursor-pointer active">
-                      <span className="bg-transparent border border-[#c5a47e] block w-3 h-3 rounded-full mx-[3px]"></span>
-                    </div>
-                  </div>
+                    <SplideSlide>
+                      {/* Item 2 */}
+                      <div className="lg:w-358.667px  me-5 float-left">
+                        <div className="ps-10 pb-[30px] overflow-hidden">
+                          <div className="relative inline-block align-middle w-full mb-5">
+                            <img
+                              className="h-[316px]"
+                              src="https://duruthemes.com/demo/html/archsan/light/images/team/7.jpg"
+                              alt=""
+                            />
+
+                            <div className="absolute -left-[7px] bottom-0 origin-bottom-left -rotate-90">
+                              <h4
+                                className="flex items-center text-[15px] font-normal [word-spacing:5px] ps-[15px]
+                                 ms-[10px] text-[#777] tracking-wider"
+                              >
+                                <span
+                                  className="before:content-[''] top-[55%] left-[5px] -translate-y-[50%] w-[5px] h-[5px] 
+                                    absolute rounded-full bg-[#c5a47e] "
+                                ></span>
+                                OLIVIA BROWN
+                              </h4>
+                            </div>
+                          </div>
+
+                          <ul className=" text-center mb-2.5">
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-dribbble"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-twitter"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-instagram"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-linkedin"></i>
+                              </a>
+                            </li>
+                          </ul>
+
+                          <p className="text-center text-[15px] font-normal text-[#777] mb-5 leading-7">
+                            M.A. FH in Architecture
+                          </p>
+                        </div>
+                      </div>
+                    </SplideSlide>
+
+                    <SplideSlide>
+                      {/* Item 3 */}
+                      <div className="lg:w-358.667px me-5 float-left">
+                        <div className="ps-10 pb-[30px] overflow-hidden">
+                          <div className="relative inline-block align-middle w-full mb-5">
+                            <img
+                              className="h-[316px]"
+                              src="https://duruthemes.com/demo/html/archsan/light/images/team/11.jpg"
+                              alt=""
+                            />
+
+                            <div className="absolute -left-[7px] bottom-0 origin-bottom-left -rotate-90">
+                              <h4
+                                className="flex items-center text-[15px] font-normal [word-spacing:5px] ps-[15px]
+                                 ms-[10px] text-[#777] tracking-wider"
+                              >
+                                <span
+                                  className="before:content-[''] top-[55%] left-[5px] -translate-y-[50%] w-[5px] h-[5px] 
+                                    absolute rounded-full bg-[#c5a47e] "
+                                ></span>
+                                YVONNE COLM
+                              </h4>
+                            </div>
+                          </div>
+
+                          <ul className="text-center mb-2.5">
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-dribbble"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-twitter"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-instagram"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-linkedin"></i>
+                              </a>
+                            </li>
+                          </ul>
+
+                          <p className="text-center text-[15px] font-normal text-[#777] mb-5 leading-7">
+                            Interior Designer
+                          </p>
+                        </div>
+                      </div>
+                    </SplideSlide>
+
+                    <SplideSlide>
+                      {/* Item 1 */}
+                      <div className="lg:w-358.667px  me-5 float-left">
+                        <div className="ps-10 pb-[30px] overflow-hidden">
+                          <div className="relative inline-block align-middle w-full mb-5">
+                            <img
+                              className="h-[316px]"
+                              src="https://shtheme.com/demosd/archsan/wp-content/uploads/2023/03/3.jpg"
+                              alt=""
+                            />
+
+                            <div className="absolute -left-[7px] bottom-0 origin-bottom-left -rotate-90">
+                              <h4
+                                className="flex items-center text-[15px] font-normal [word-spacing:5px] ps-[15px]
+                                 ms-[10px] text-[#777] tracking-wider"
+                              >
+                                <span
+                                  className="before:content-[''] top-[55%] left-[5px] -translate-y-[50%] w-[5px] h-[5px] 
+                                    absolute rounded-full bg-[#c5a47e] "
+                                ></span>
+                                STELLA ATHENA
+                              </h4>
+                            </div>
+                          </div>
+
+                          <ul className=" text-center mb-2.5">
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-dribbble"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-twitter"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-instagram"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-linkedin"></i>
+                              </a>
+                            </li>
+                          </ul>
+
+                          <p className="text-center text-[15px] font-normal text-[#777] mb-5 leading-7">
+                            dipl. Arch ETH/SIA
+                          </p>
+                        </div>
+                      </div>
+                    </SplideSlide>
+
+                    <SplideSlide>
+                      {/* Item 2 */}
+                      <div className="lg:w-358.667px  me-5 float-left">
+                        <div className="ps-10 pb-[30px] overflow-hidden">
+                          <div className="relative inline-block align-middle w-full mb-5">
+                            <img
+                              className="h-[316px]"
+                              src="https://shtheme.com/demosd/archsan/wp-content/uploads/2023/03/5.jpg"
+                              alt=""
+                            />
+
+                            <div className="absolute -left-[7px] bottom-0 origin-bottom-left -rotate-90">
+                              <h4
+                                className="flex items-center text-[15px] font-normal [word-spacing:5px] ps-[15px]
+                                 ms-[10px] text-[#777] tracking-wider"
+                              >
+                                <span
+                                  className="before:content-[''] top-[55%] left-[5px] -translate-y-[50%] w-[5px] h-[5px] 
+                                    absolute rounded-full bg-[#c5a47e] "
+                                ></span>
+                                OLIVIA BROWN
+                              </h4>
+                            </div>
+                          </div>
+
+                          <ul className=" text-center mb-2.5">
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-dribbble"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-twitter"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-instagram"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-linkedin"></i>
+                              </a>
+                            </li>
+                          </ul>
+
+                          <p className="text-center text-[15px] font-normal text-[#777] mb-5 leading-7">
+                            M.A. FH in Architecture
+                          </p>
+                        </div>
+                      </div>
+                    </SplideSlide>
+
+                    <SplideSlide>
+                      {/* Item 3 */}
+                      <div className="lg:w-358.667px me-5 float-left">
+                        <div className="ps-10 pb-[30px] overflow-hidden">
+                          <div className="relative inline-block align-middle w-full mb-5">
+                            <img
+                              className="h-[316px]"
+                              src="https://shtheme.com/demosd/archsan/wp-content/uploads/2023/03/12.jpg"
+                              alt=""
+                            />
+
+                            <div className="absolute -left-[7px] bottom-0 origin-bottom-left -rotate-90">
+                              <h4
+                                className="flex items-center text-[15px] font-normal [word-spacing:5px] ps-[15px]
+                                 ms-[10px] text-[#777] tracking-wider"
+                              >
+                                <span
+                                  className="before:content-[''] top-[55%] left-[5px] -translate-y-[50%] w-[5px] h-[5px] 
+                                    absolute rounded-full bg-[#c5a47e] "
+                                ></span>
+                                YVONNE COLM
+                              </h4>
+                            </div>
+                          </div>
+
+                          <ul className="text-center mb-2.5">
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-dribbble"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-twitter"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-instagram"></i>
+                              </a>
+                            </li>
+                            <li className="inline-block px-[5px]">
+                              <a href="#" className="text-[#c5a47e]">
+                                <i className="bi bi-linkedin"></i>
+                              </a>
+                            </li>
+                          </ul>
+
+                          <p className="text-center text-[15px] font-normal text-[#777] mb-5 leading-7">
+                            Interior Designer
+                          </p>
+                        </div>
+                      </div>
+                    </SplideSlide>
+                  </Splide>
                 </div>
-
-                {/* <div
-                  id="default-carousel"
-                  className="relative w-full"
-                  data-carousel="slide"
-                > */}
-                {/* Carousel wrapper */}
-                {/* <div className="relative h-56 overflow-hidden rounded-lg md:h-96"> */}
-                {/* Item 1 */}
-                {/* <div
-                      className=" duration-700 ease-in-out"
-                      data-carousel-item
-                    >
-                      <img
-                        src="https://duruthemes.com/demo/html/archsan/light/images/team/10.jpg"
-                        className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        alt="..."
-                      />
-                    </div> */}
-
-                {/* Item 2 */}
-                {/* <div
-                      className="hidden duration-700 ease-in-out"
-                      data-carousel-item
-                    >
-                      <img
-                        src="/docs/images/carousel/carousel-2.svg"
-                        className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        alt="..."
-                      />
-                    </div> */}
-                {/* Item 3 */}
-                {/* <div
-                      className="hidden duration-700 ease-in-out"
-                      data-carousel-item
-                    >
-                      <img
-                        src="/docs/images/carousel/carousel-3.svg"
-                        className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        alt="..."
-                      />
-                    </div> */}
-                {/* Item 4 */}
-                {/* <div
-                      className="hidden duration-700 ease-in-out"
-                      data-carousel-item
-                    >
-                      <img
-                        src="/docs/images/carousel/carousel-4.svg"
-                        className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        alt="..."
-                      />
-                    </div> */}
-                {/* Item 5 */}
-                {/* <div
-                      className="hidden duration-700 ease-in-out"
-                      data-carousel-item
-                    >
-                      <img
-                        src="/docs/images/carousel/carousel-5.svg"
-                        className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        alt="..."
-                      />
-                    </div>
-                  </div> */}
-
-                {/* Slider indicators */}
-                {/* <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-                    <button
-                      type="button"
-                      className="w-3 h-3 rounded-full"
-                      aria-current="true"
-                      aria-label="Slide 1"
-                      data-carousel-slide-to={0}
-                    />
-                    <button
-                      type="button"
-                      className="w-3 h-3 rounded-full"
-                      aria-current="false"
-                      aria-label="Slide 2"
-                      data-carousel-slide-to={1}
-                    />
-                    <button
-                      type="button"
-                      className="w-3 h-3 rounded-full"
-                      aria-current="false"
-                      aria-label="Slide 3"
-                      data-carousel-slide-to={2}
-                    />
-                    <button
-                      type="button"
-                      className="w-3 h-3 rounded-full"
-                      aria-current="false"
-                      aria-label="Slide 4"
-                      data-carousel-slide-to={3}
-                    />
-                    <button
-                      type="button"
-                      className="w-3 h-3 rounded-full"
-                      aria-current="false"
-                      aria-label="Slide 5"
-                      data-carousel-slide-to={4}
-                    />
-                  </div> */}
-                {/* Slider controls */}
-                {/* <button
-                    type="button"
-                    className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                    data-carousel-prev
-                  >
-                    <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                      <svg
-                        className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 6 10"
-                      >
-                        <path
-                          stroke="currentColor"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M5 1 1 5l4 4"
-                        />
-                      </svg>
-                      <span className="sr-only">Previous</span>
-                    </span>
-                  </button>
-                  <button
-                    type="button"
-                    className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                    data-carousel-next
-                  >
-                    <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                      <svg
-                        className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 6 10"
-                      >
-                        <path
-                          stroke="currentColor"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="m1 9 4-4-4-4"
-                        />
-                      </svg>
-                      <span className="sr-only">Next</span>
-                    </span>
-                  </button>
-                </div> */}
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -3,7 +3,6 @@
 @import "../node_modules/animate.css/animate.min.css";
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -26,4 +25,17 @@
   background-size: cover;
   background-repeat: no-repeat;
   /* height: 352px; */
+}
+
+.splide__pagination .splide__pagination__page {
+  margin-right: 5px;
+  height: 12px;
+  width: 12px;
+
+  border: 1px solid #c5a47e;
+}
+
+.splide__pagination__page.is-active {
+  background-color: #c5a47e;
+  transform: scale(1.2);
 }
