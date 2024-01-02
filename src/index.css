@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Oswald:wght@300;400;500;600&display=swap");
+@import url("../node_modules/animate.css/animate.min.css");
 @import "animate.css";
 
 @import "../node_modules/animate.css/animate.min.css";
@@ -27,6 +28,49 @@
 
 .border-left {
   border-left: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Landing page custom css */
+.splide__slide {
+  height: 786px;
+}
+
+.splide__slide .slide {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+}
+
+.splide__arrows {
+  position: absolute;
+  right: 280px;
+  bottom: 75px;
+}
+
+.splide__arrow--prev {
+  border-radius: 20px;
+  border: 1px solid #777;
+  height: 40px;
+  width: 40px;
+  left: -2em;
+}
+
+.splide__arrow--next {
+  border-radius: 20px;
+  border: 1px solid #777;
+  height: 40px;
+  width: 40px;
+  right: -2.5em;
+}
+
+.splide__arrow svg {
+  fill: #fff;
+  height: 14px;
+  width: 1.2em;
 }
 
 .contact .discuss {
