@@ -12,6 +12,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.ReactCollapse--collapse {
+  transition: height 400ms;
+}
+
 .border-l-r {
   border-left: 1px solid rgba(0, 0, 0, 0.05);
   border-right: 1px solid rgba(0, 0, 0, 0.05);
@@ -43,4 +47,13 @@
 .splide__pagination__page.is-active {
   background-color: #c5a47e;
   transform: scale(1.2);
+}
+.outline-num {
+  font-size: 48px;
+  font-family: "Oswald", "sans-serif";
+  line-height: 48px;
+  font-weight: 400;
+  color: transparent;
+  -webkit-text-stroke: 1px #c6a37c;
+  opacity: 0.8;
 }
