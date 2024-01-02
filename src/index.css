@@ -1,16 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Oswald:wght@300;400;500;600&display=swap");
 @import url("../node_modules/animate.css/animate.min.css");
+@import "animate.css";
+
+@import "../node_modules/animate.css/animate.min.css";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
+@font-face {
+  font-family: "thermify";
+  src: url(/fonts/themify.ttf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.ReactCollapse--collapse {
+  transition: height 400ms;
+}
+
 .border-l-r {
-  border-left: 2px solid rgba(0, 0, 0, 0.05);
-  border-right: 2px solid rgba(0, 0, 0, 0.05);
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .border-bottom {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .border-left {
@@ -58,4 +71,33 @@
   fill: #fff;
   height: 14px;
   width: 1.2em;
+}
+
+.contact .discuss {
+  background-image: url("https://shtheme.com/demosd/archsan/wp-content/uploads/2022/12/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 352px; */
+}
+
+.splide__pagination .splide__pagination__page {
+  margin-right: 5px;
+  height: 12px;
+  width: 12px;
+
+  border: 1px solid #c5a47e;
+}
+
+.splide__pagination__page.is-active {
+  background-color: #c5a47e;
+  transform: scale(1.2);
+}
+.outline-num {
+  font-size: 48px;
+  font-family: "Oswald", "sans-serif";
+  line-height: 48px;
+  font-weight: 400;
+  color: transparent;
+  -webkit-text-stroke: 1px #c6a37c;
+  opacity: 0.8;
 }
