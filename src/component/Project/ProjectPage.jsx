@@ -29,7 +29,7 @@ const ProjectPage = () => {
           <div className="grid grid-cols-12">
             <div className="col-span-12 px-3 ">
               <div className="block z-10">
-                <div>
+                <div className="project_page_slide_container">
                   <Splide
                     options={{
                       rewind: true,
@@ -135,28 +135,41 @@ const ProjectPage = () => {
 
             <div className="col-span-8">
               <div className="relative z-20 p-[30px] bg-[#fff] mb-[60px] -mt-[70px] border-b border-[#0000000d]">
-              <div className="grid grid-cols-12 text-left">
-                <div className="col-span-3 px-3">
-                  <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">Year</h5>
-                  <h6 className="text-[15px] font-normal text-[#777] leading-6">2020 - 2023</h6>
-                </div>
-                <div className="col-span-3 px-3">
-                    <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">Company</h5>
-                  <h6 className="text-[15px] font-normal text-[#777] leading-6">Drana Inc.</h6>
-                </div>
-                <div className="col-span-3 px-3">
-                    <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">Name</h5>
-                  <h6 className="text-[15px] font-normal text-[#777] leading-6">House Design
-</h6>
-                </div>
-                <div className="col-span-3 px-3">
-                    <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">Location</h5>
-                  <h6 className="text-[15px] font-normal text-[#777] leading-6">New York, USA
-</h6>
+                <div className="grid grid-cols-12 text-left">
+                  <div className="col-span-3 px-3">
+                    <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">
+                      Year
+                    </h5>
+                    <h6 className="text-[15px] font-normal text-[#777] leading-6">
+                      2020 - 2023
+                    </h6>
+                  </div>
+                  <div className="col-span-3 px-3">
+                    <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">
+                      Company
+                    </h5>
+                    <h6 className="text-[15px] font-normal text-[#777] leading-6">
+                      Drana Inc.
+                    </h6>
+                  </div>
+                  <div className="col-span-3 px-3">
+                    <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">
+                      Name
+                    </h5>
+                    <h6 className="text-[15px] font-normal text-[#777] leading-6">
+                      House Design
+                    </h6>
+                  </div>
+                  <div className="col-span-3 px-3">
+                    <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">
+                      Location
+                    </h5>
+                    <h6 className="text-[15px] font-normal text-[#777] leading-6">
+                      New York, USA
+                    </h6>
+                  </div>
                 </div>
               </div>
-              </div>
-              
             </div>
           </div>
 

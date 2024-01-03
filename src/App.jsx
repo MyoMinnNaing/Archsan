@@ -4,8 +4,8 @@ import Home from "./component/Home/Home";
 import Contact from "./component/Contact/Contact";
 import About from "./component/About/About";
 import Project from "./component/Project/Project";
-
-
+import Project03 from "./component/Project/Project03";
+import ProjectPage from "./component/Project/ProjectPage";
 
 const App = () => {
   return (
@@ -13,8 +13,10 @@ const App = () => {
       {/* <Home /> */}
       {/* <Contact /> */}
       {/* <About /> */}
-      <Project />
+      {/* <Project /> */}
       {/* <ImageCarousel /> */}
+      {/* <Project03 /> */}
+      <ProjectPage />
     </>
   );
 };
