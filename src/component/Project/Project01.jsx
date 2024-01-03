@@ -74,7 +74,11 @@ const Project01 = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-3 grid-flow-row gap-4 mx-3">
+        <div
+          data-aos="fade-up"
+          data-aos-once="true"
+          className="grid md:grid-cols-3 grid-flow-row gap-4 mx-3"
+        >
           {projects.map(({ img, name, title }, index) => (
             <div key={index} className=" group">
               <div className="overflow-hidden relative">
