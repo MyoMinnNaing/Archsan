@@ -51,7 +51,7 @@
   border: 1px solid #c5a47e;
 }
 
-.splide__arrow.is-hover {
+.splide__arrow.is-active {
   background-color: #fff;
   transform: scale(0.9); 
 }
