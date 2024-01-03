@@ -9,7 +9,7 @@ const BlogTwo = () => {
       <LineWrapper />
       <Header />
 
-      <div className=" pt-[110px]">
+      <div className=" pt-[108px]">
       <div className=" container">
         <div className=" flex flex-row h-20 items-center mb-12">
           <div className=" basis-1/3 ">
@@ -19,7 +19,7 @@ const BlogTwo = () => {
             </div>
             <div className=" h-2 w-[355px] ms-3 border-b border-transparent]"></div>
           </div>
-          <div className=" basic-1/2 ps-3 text-[#ab620e] text-[38px] font-heading tracking-wider">
+          <div className=" basic-1/2 ps-3 text-[#ab620e] text-[36px] font-heading tracking-widest">
             LATEST NEWS
           </div>
         </div>
