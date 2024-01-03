@@ -8,9 +8,10 @@ const Header = () => {
     setToggle(!toggle);
     setOpenDrawer(!openDrawer);
   };
+
   return (
     <header className=" border-bottom relative z-50">
-      <div className="  container px-[15px] py-[22px]">
+      <div className=" container px-[15px] py-[22px]">
         <div className=" grid grid-cols-12">
           <div className=" col-span-6">
             <a href="">

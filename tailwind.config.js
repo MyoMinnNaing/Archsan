@@ -5,6 +5,15 @@ export default {
     fontFamily: {
       sans: ["Barlow", "sans-serif"],
     },
+    letterSpacing: {
+      tightest: '-.075em',
+      tighter: '-.05em',
+      tight: '-.025em',
+      normal: '0',
+      wide: '.025em',
+      wider: '.05em',
+      widest: '.09em',
+    },
     container: {
       center: true,
       // default breakpoints but with 40px removed
@@ -21,5 +30,8 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss'),
+    require('autoprefixer'),
+  ],
 };
