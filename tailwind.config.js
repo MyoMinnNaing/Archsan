@@ -31,6 +31,7 @@ export default {
       transitionTimingFunction: {
         'img-out-expo': 'cubic-bezier(0.3, 0.1, 0.58, 1)',
         'out-expo': 'cubic-bezier(0.65, 0.05, 0.36, 1)',
+        'ease': 'cubic-bezier(0.27, 0.1, 0.25, 1)',
       },
       boxShadow: {
         'poly': '0px 0px 0px 5px rgb(255 255 255 / 10%)',

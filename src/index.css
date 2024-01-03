@@ -2,7 +2,6 @@
 @import "../node_modules/animate.css/animate.min.css";
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
 
-
 @font-face {
   font-family: "thermify";
   src: url(/fonts/themify.ttf);
@@ -111,6 +110,7 @@
   fill: #fff;
   height: 14px;
   width: 1.2em;
+}
 .splide__pagination .splide__pagination__page {
   margin-right: 5px;
   height: 12px;
