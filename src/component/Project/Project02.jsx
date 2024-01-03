@@ -50,12 +50,12 @@ const Project02 = () => {
             </ul>
           </div>
 
-          <div className="grid grid-cols-12 relative h-[1618.21px]">
-            <div className="col-span-6 resolute left-0  top-0">
+          <div className="grid grid-cols-12 mx-auto relative h-[1618.21px]">
+            <div className="col-span-6 absolute left-0 top-0">
               <div className="relative ps-[90px] pb-[90px] group">
                 <a href="#" className="text-[#c5a47e] ">
                   <img
-                    className="w-full h-auto group-hover:scale-95 duration-500 ease-in-out "
+                    className="w-[470px] h-auto group-hover:scale-95 duration-500 ease-in-out "
                     src="https://duruthemes.com/demo/html/archsan/light/images/projects/06.jpg"
                     alt=""
                   />
@@ -77,11 +77,11 @@ const Project02 = () => {
               </div>
             </div>
 
-            <div className="col-span-6 resolute left-[570px] top-0  mt-[75px]">
+            <div className="col-span-6 absolute left-[570px] top-0  mt-[75px]">
               <div className="relative ps-[90px] pb-[90px] group">
                 <a href="#" className="text-[#c5a47e] ">
                   <img
-                    className="w-full h-auto group-hover:scale-95 duration-500 ease-in-out "
+                    className="w-[470px] h-auto group-hover:scale-95 duration-500 ease-in-out "
                     src="https://duruthemes.com/demo/html/archsan/light/images/projects/02.jpg"
                     alt=""
                   />
@@ -103,12 +103,12 @@ const Project02 = () => {
               </div>
             </div>
 
-            <div className="col-span-6 resolute left-[570px] top-[520px] ">
+            <div className="col-span-6 absolute left-[570px] top-[520px] ">
               <div className="relative ps-[90px] pb-[90px] group">
                 <a href="#" className="text-[#c5a47e] ">
                   <img
-                    className="w-full h-auto group-hover:scale-95 duration-500 ease-in-out "
-                    src="https://duruthemes.com/demo/html/archsan/light/images/projects/04.jpg "
+                    className="w-[470px] h-auto group-hover:scale-95 duration-500 ease-in-out "
+                    src="https://duruthemes.com/demo/html/archsan/light/images/projects/03.jpg "
                     alt=""
                   />
                 </a>
@@ -129,12 +129,12 @@ const Project02 = () => {
               </div>
             </div>
 
-            <div className="col-span-6 resolute left-0 top-[652px] -mt-[140px]">
+            <div className="col-span-6 absolute left-0 top-[652px]">
               <div className="relative ps-[90px] pb-[90px] group">
                 <a href="#" className="text-[#c5a47e] ">
                   <img
-                    className="w-full h-auto group-hover:scale-95 duration-500 ease-in-out "
-                    src="https://duruthemes.com/demo/html/archsan/light/images/projects/03.jpg"
+                    className="w-[470px] h-auto group-hover:scale-95 duration-500 ease-in-out "
+                    src="https://duruthemes.com/demo/html/archsan/light/images/projects/04.jpg"
                     alt=""
                   />
                 </a>
@@ -155,12 +155,12 @@ const Project02 = () => {
               </div>
             </div>
 
-            <div className="col-span-6 resolute left-[570px] top-[965px]">
+            <div className="col-span-6 absolute left-[570px] top-[965px]">
               <div className="relative ps-[90px] pb-[90px] group">
                 <a href="#" className="text-[#c5a47e] ">
                   <img
-                    className="w-full h-auto group-hover:scale-95 duration-500 ease-in-out "
-                    src="https://duruthemes.com/demo/html/archsan/light/images/projects/05.jpg"
+                    className="w-[470px] h-auto group-hover:scale-95 duration-500 ease-in-out "
+                    src="https://duruthemes.com/demo/html/archsan/light/images/projects/01.jpg"
                   />
                 </a>
                 <div className="absolute left-[40px] top-[80px]">
@@ -180,12 +180,12 @@ const Project02 = () => {
               </div>
             </div>
 
-            <div className="col-span-6 resolute left-0 top-[1097px] -mt-[140px]">
+            <div className="col-span-6 absolute left-0 top-[1097px]">
               <div className="relative ps-[90px] pb-[90px] group">
                 <a href="#" className="text-[#c5a47e] ">
                   <img
-                    className="w-full h-auto group-hover:scale-95 duration-500 ease-in-out "
-                    src="https://duruthemes.com/demo/html/archsan/light/images/projects/01.jpg"
+                    className="w-[470px] h-auto group-hover:scale-95 duration-500 ease-in-out "
+                    src="https://duruthemes.com/demo/html/archsan/light/images/projects/05.jpg"
                     alt=""
                   />
                 </a>
