@@ -30,12 +30,8 @@ export default {
       },
     },
   },
-<<<<<<< HEAD
   plugins: [
     require('tailwindcss'),
     require('autoprefixer'),
-  ],
-=======
-  plugins: [require("flowbite/plugin")],
->>>>>>> 7ed05ba9f4bce7732b4ccd0d79207d67806273f8
+  require("flowbite/plugin")],
 };
