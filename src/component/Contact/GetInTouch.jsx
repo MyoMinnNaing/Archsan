@@ -1,12 +1,23 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const GetInTouch = () => {
+  AOS.init();
+
   return (
     <section className=" relative z-50">
       <div className=" py-[120px]">
         <div className=" container">
           {/* Heading */}
-          <div className=" heading  mb-[60px]">
+          <div
+            className=" heading  mb-[60px]"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
             <div className=" grid grid-cols-12  ">
               <div className=" col-span-12 md:col-span-4 ps-[15px] pt-[5px]  pb-[15px] relative ">
                 <span className=" w-[90%] h-[1px] border-bottom absolute bottom-0"></span>
@@ -26,7 +37,14 @@ const GetInTouch = () => {
           {/* Form */}
           <div className=" grid grid-cols-12">
             <div className=" col-span-12  md:col-span-4"></div>
-            <div className=" col-span-12 md:col-span-4 px-[15px]">
+            <div
+              className=" col-span-12 md:col-span-4 px-[15px]"
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               <p className=" text-[15px] text-[#777] leading-6 mb-[20px]">
                 1616 Broadway NY, New York 10001
                 <br />
@@ -83,34 +101,41 @@ const GetInTouch = () => {
                 </a>
               </div>
             </div>
-            <div className=" col-span-12 md:col-span-4 px-[15px]">
+            <div
+              className=" col-span-12 md:col-span-4 px-[15px]"
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="250"
+              data-aos-duration="2000"
+              data-aos-easing="ease-in-out"
+            >
               <h1 className=" font-heading text-[20px] text-[#1b1b1b] tracking-[2px] mb-[30px]">
                 HAVE A PROJECT? -
                 <span className=" text-[#c5a47efc]">LETS TALK</span>
               </h1>
               <div className="">
                 <input
-                  type="text"
+                  type="email"
+                  className=" mb-3 py-3 pe-0 ps-0 block w-full bg-transparent border-y-transparent  border-x-transparent text-[15px] focus:border-t-transparent focus:border-x-transparent focus:border-b-[#c5a47efc] focus:border-opacity-50 focus:ring-0 "
                   placeholder="Your Name *"
-                  className=" w-full border-bottom font-normal focus-visible:outline-none pb-[15px] mb-5  ps-2 text-[15px] text-[#777]  "
                 />
 
                 <input
-                  type="text"
-                  placeholder="Your Emai *"
-                  className=" w-full border-bottom font-normal focus-visible:outline-none pb-[15px] mb-5 ps-2 text-[15px] text-[#777]  "
+                  type="email"
+                  className=" mb-3 py-3 pe-0 ps-0 block w-full bg-transparent border-y-transparent  border-x-transparent text-[15px] focus:border-t-transparent focus:border-x-transparent focus:border-b-[#c5a47efc] focus:border-opacity-50 focus:ring-0 "
+                  placeholder="Your Email *"
                 />
 
                 <input
-                  type="text"
+                  type="email"
+                  className=" mb-3 py-3 pe-0 ps-0 block w-full bg-transparent border-y-transparent  border-x-transparent text-[15px] focus:border-t-transparent focus:border-x-transparent focus:border-b-[#c5a47efc] focus:border-opacity-50 focus:ring-0 "
                   placeholder="Your Number *"
-                  className=" w-full border-bottom font-normal focus-visible:outline-none pb-[15px] mb-5 ps-2 text-[15px] text-[#777]  "
                 />
 
                 <input
-                  type="text"
-                  placeholder="Your Subject *"
-                  className=" w-full border-bottom font-normal focus-visible:outline-none pb-[15px] mb-5 ps-2 text-[15px] text-[#777]  "
+                  type="email"
+                  className=" mb-3 py-3 pe-0 ps-0 block w-full bg-transparent border-y-transparent  border-x-transparent text-[15px] focus:border-t-transparent focus:border-x-transparent focus:border-b-[#c5a47efc] focus:border-opacity-50 focus:ring-0 "
+                  placeholder="Subject *"
                 />
 
                 <textarea
@@ -119,7 +144,7 @@ const GetInTouch = () => {
                   cols="10"
                   rows="4"
                   placeholder="Message *"
-                  className="w-full mb-5 ps-2  border-b border-b-[#c5a47efc] font-normal focus-visible:outline-none text-[15px] text-[#777]"
+                  className="w-full mb-5  ps-0 bg-transparent border-y-transparent  border-x-transparent text-[15px] focus:border-t-transparent focus:border-x-transparent focus:border-b-[#c5a47efc] focus:border-opacity-50 focus:ring-0 "
                 ></textarea>
 
                 <button className=" px-[30px] py-[10px] rounded-full text-[15px] bg-[#c5a47efc] text-white hover:bg-white border hover:border-[#c5a47efc] duration-300 hover:text-[#c5a47efc]">
