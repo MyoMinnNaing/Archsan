@@ -101,3 +101,7 @@
   -webkit-text-stroke: 1px #c6a37c;
   opacity: 0.8;
 }
+
+.active {
+  color: #c5a47efc;
+}

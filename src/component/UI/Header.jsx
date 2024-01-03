@@ -1,13 +1,20 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   const [openDrawer, setOpenDrawer] = useState(true);
+  const [dropDownToggle, setDropDownToggle] = useState(false);
 
   const toggleHandler = () => {
     setToggle(!toggle);
     setOpenDrawer(!openDrawer);
+  };
+
+  const dropDownToggleHandler = (e) => {
+    e.preventDefault();
+    setDropDownToggle(!dropDownToggle);
+    console.log("first");
   };
   return (
     <header className=" border-bottom fixed top-0 left-0 w-full bg-white z-[1000]">
@@ -68,8 +75,37 @@ const Header = () => {
             <li className=" mb-[10px] pb-[10px]">
               <NavLink to="/gallery"> Gallery</NavLink>
             </li>
-            <li className=" mb-[10px] pb-[10px]">
-              <NavLink to="/page"> Pages</NavLink>
+            <li
+              onClick={dropDownToggleHandler}
+              className=" mb-[10px] pb-[10px]"
+            >
+              <Link>
+                <div className=" flex gap-2 items-center">
+                  <h1>Pages</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-3 h-3"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </div>
+              </Link>
+              {dropDownToggle && (
+                <div
+                  className={`ps-2 flex flex-col gap-2 mt-3  duration-300 animate__animated animate__fadeInDown `}
+                >
+                  <NavLink to="/faq-page"> FAQ</NavLink>
+                  <NavLink to="/process-page">Process</NavLink>
+                </div>
+              )}
             </li>
             <li className=" mb-[10px] pb-[10px]">
               <NavLink to="/blog"> Blog</NavLink>
