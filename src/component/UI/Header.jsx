@@ -10,8 +10,13 @@ const Header = () => {
   };
 
   return (
+<<<<<<< HEAD
     <header className=" border-bottom relative z-50">
       <div className=" container px-[15px] py-[22px]">
+=======
+    <header className=" border-bottom relative z-[1000]">
+      <div className="  container px-[15px] py-[22px]">
+>>>>>>> 7ed05ba9f4bce7732b4ccd0d79207d67806273f8
         <div className=" grid grid-cols-12">
           <div className=" col-span-6">
             <a href="">

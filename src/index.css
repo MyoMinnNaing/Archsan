@@ -1,6 +1,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Oswald:wght@300;400;500;600&display=swap");
 
+@import "../node_modules/animate.css/animate.min.css";
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,16 +12,22 @@
   ;
 }
 .border-l-r {
-  border-left: 2px solid rgba(0, 0, 0, 0.05);
-  border-right: 2px solid rgba(0, 0, 0, 0.05);
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .border-bottom {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .border-left {
   border-left: 1px solid rgba(0, 0, 0, 0.05);
 }
 
+.contact .discuss {
+  background-image: url("https://shtheme.com/demosd/archsan/wp-content/uploads/2022/12/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 352px; */
+}
 
