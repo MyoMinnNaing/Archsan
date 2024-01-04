@@ -9,6 +9,15 @@ export default {
     fontFamily: {
       sans: ["Barlow", "sans-serif"],
     },
+    letterSpacing: {
+      tightest: '-.075em',
+      tighter: '-.05em',
+      tight: '-.025em',
+      normal: '0',
+      wide: '.025em',
+      wider: '.05em',
+      widest: '.09em',
+    },
     
     container: {
       center: true,
@@ -37,5 +46,8 @@ export default {
       },
     },
   },
-  plugins: [require("flowbite/plugin")],
+  plugins: [
+    require('tailwindcss'),
+    require('autoprefixer'),
+  require("flowbite/plugin")],
 };

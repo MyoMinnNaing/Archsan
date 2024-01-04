@@ -17,6 +17,8 @@ const Header = () => {
     console.log("first");
   };
   return (
+
+    <header className=" border-bottom relative z-[1000]">
     <header className=" border-bottom fixed top-0 left-0 w-full bg-white z-[1000]">
       <div className="  container px-[15px] py-[22px]">
         <div className=" grid grid-cols-12">

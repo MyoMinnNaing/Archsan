@@ -59,6 +59,11 @@ const Project03 = () => {
               <div>
                 <a
                   href=""
+                  className="relative pb-0.5 -mb-0.5 border-b border-bg-[#0000001a] group duration-500 text-[#c5a47e] inline-block hover:text-[#1b1b1b]"
+                >
+                  View Project
+                  {/* <span className="ease absolute right-0 top-0 h-0 shadow-xl w-0 border-r-4 border-blue-600 transition-all duration-500 group-hover:h-full"></span> */}
+                  <span className="ease absolute bottom-0 left-0 h-0 w-0 border-b-2 border-[#c5a47e] transition-all duration-500 group-hover:w-full"></span>
                   className="relative pb-0.5 group -mb-0.5 border-b border-bg-[#0000001a] text-[#c5a47e] inline-block hover:text-[#1b1b1b]"
                 >
                   <span className="ease absolute left-0 bottom-0 h-0 w-0 border-b-2 border-[#c5a47e] transition-all duration-500 group-hover:w-full" />
@@ -70,6 +75,9 @@ const Project03 = () => {
         </div>
       </div>
 
+      <div className="mt-[120px] w-[1140px] mx-auto grid grid-cols-12">
+        <div className="col-span-4 flex items-center">
+          <div className="p-[30px] w-full">
       <div className="mt-[120px] mx-auto flex flex-col-reverse md:flex md:flex-row-reverse lg:grid lg:grid-cols-12">
         <div className="col-span-12 md:col-span-4 flex items-center">
           <div className="p-3 md:p-[30px] w-full">
@@ -84,6 +92,9 @@ const Project03 = () => {
               <div>
                 <a
                   href=""
+                  className="relative pb-0.5 -mb-0.5 border-b group border-bg-[#0000001a] text-[#c5a47e] inline-block hover:text-[#1b1b1b]"
+                >
+                  <span className="ease absolute bottom-0 left-0 h-0 w-0 border-b-2 border-[#c5a47e] transition-all duration-500 group-hover:w-full"></span>
                   className="relative pb-0.5 group -mb-0.5 border-b border-bg-[#0000001a] text-[#c5a47e] inline-block hover:text-[#1b1b1b]"
                 >
                   <span className="ease absolute left-0 bottom-0 h-0 w-0 border-b-2 border-[#c5a47e] transition-all duration-500 group-hover:w-full" />
@@ -132,6 +143,9 @@ const Project03 = () => {
               <div>
                 <a
                   href=""
+                  className="relative pb-0.5 -mb-0.5 border-b group border-bg-[#0000001a] text-[#c5a47e] inline-block hover:text-[#1b1b1b]"
+                >
+                  <span className="ease absolute bottom-0 left-0 h-0 w-0 border-b-2 border-[#c5a47e] transition-all duration-500 group-hover:w-full"></span>
                   className="relative pb-0.5 group -mb-0.5 border-b border-bg-[#0000001a] text-[#c5a47e] inline-block hover:text-[#1b1b1b]"
                 >
                   <span className="ease absolute left-0 bottom-0 h-0 w-0 border-b-2 border-[#c5a47e] transition-all duration-500 group-hover:w-full" />

@@ -1,6 +1,15 @@
 import React from "react";
 import Footer from "../Contact/Footer";
 import Header from "../UI/Header";
+ 
+import Service from "../Service/Service";
+
+const Home = () => {
+  return (
+    <div className="  min-h-screen relative container">
+      <Header />
+
+
 import LandingPage from "./LandingPage";
 import AboutArchsan from "./AboutArchsan";
 import Testimonials from "./Testimonials";
