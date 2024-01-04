@@ -5,14 +5,14 @@ import Footer from "../Contact/Footer";
 
 const BlogTwo = () => {
   return (
-    <div>
+    <div className=" relative">
       <LineWrapper />
       <Header />
 
       <div className=" py-[108px]">
       <div className=" container">
-        <div className=" flex flex-row h-20 items-center mb-12">
-          <div className=" basis-1/3 ">
+        <div className=" flex flex-col sm:flex-row h-20 sm:items-center items-start mb-12">
+          <div className=" basis-1/3">
             <div className="flex items-center mb-[5px]">
               <div className=" w-[5px] h-[5px] rounded mx-4 bg-[#c5a47e]"></div>
               <span className=" tracking-widest text-gray-500 text-[13px]">BLOG</span>
@@ -24,7 +24,7 @@ const BlogTwo = () => {
           </div>
         </div>
 
-        <div className=" grid grid-cols-3 gap-7 mx-3">
+        <div className=" grid grid-cols-1 sm:grid-cols-3 gap-7 mx-3">
           <div className="">
             <img
               src="https://shtheme.com/demosd/archsan/wp-content/uploads/2022/12/9.jpg"
