@@ -2,7 +2,7 @@ import React from "react";
 
 const GoggleMap = () => {
   return (
-    <section>
+    <section className=" h-[500px]">
       <iframe
         className=" w-full"
         id="gmap_canvas"

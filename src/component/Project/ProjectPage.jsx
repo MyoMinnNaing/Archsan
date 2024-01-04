@@ -29,7 +29,7 @@ const ProjectPage = () => {
           <div className="grid grid-cols-12">
             <div className="col-span-12 px-3 ">
               <div className="block z-10">
-                <div>
+                <div className="project_page_slide_container">
                   <Splide
                     options={{
                       rewind: true,
@@ -135,28 +135,41 @@ const ProjectPage = () => {
 
             <div className="col-span-8">
               <div className="relative z-20 p-[30px] bg-[#fff] mb-[60px] -mt-[70px] border-b border-[#0000000d]">
-              <div className="grid grid-cols-12 text-left">
-                <div className="col-span-3 px-3">
-                  <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">Year</h5>
-                  <h6 className="text-[15px] font-normal text-[#777] leading-6">2020 - 2023</h6>
-                </div>
-                <div className="col-span-3 px-3">
-                    <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">Company</h5>
-                  <h6 className="text-[15px] font-normal text-[#777] leading-6">Drana Inc.</h6>
-                </div>
-                <div className="col-span-3 px-3">
-                    <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">Name</h5>
-                  <h6 className="text-[15px] font-normal text-[#777] leading-6">House Design
-</h6>
-                </div>
-                <div className="col-span-3 px-3">
-                    <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">Location</h5>
-                  <h6 className="text-[15px] font-normal text-[#777] leading-6">New York, USA
-</h6>
+                <div className="grid grid-cols-12 text-left">
+                  <div className="col-span-3 px-3">
+                    <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">
+                      Year
+                    </h5>
+                    <h6 className="text-[15px] font-normal text-[#777] leading-6">
+                      2020 - 2023
+                    </h6>
+                  </div>
+                  <div className="col-span-3 px-3">
+                    <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">
+                      Company
+                    </h5>
+                    <h6 className="text-[15px] font-normal text-[#777] leading-6">
+                      Drana Inc.
+                    </h6>
+                  </div>
+                  <div className="col-span-3 px-3">
+                    <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">
+                      Name
+                    </h5>
+                    <h6 className="text-[15px] font-normal text-[#777] leading-6">
+                      House Design
+                    </h6>
+                  </div>
+                  <div className="col-span-3 px-3">
+                    <h5 className="text-[15px] text-[#c5a47e] font-normal mb-[5px]">
+                      Location
+                    </h5>
+                    <h6 className="text-[15px] font-normal text-[#777] leading-6">
+                      New York, USA
+                    </h6>
+                  </div>
                 </div>
               </div>
-              </div>
-              
             </div>
           </div>
 
@@ -285,21 +298,21 @@ const ProjectPage = () => {
                 {/* Item 1 */}
                 <div className=" w-358.667px float-left me-5 relative">
                   <div className="mb-6 w-full">
-                    <div className="relative overflow-hidden group">
-                      <div className="relative w-full mb-5">
+                    <div className="relative overflow-hidden mb-5 group">
+                      
                         <img
-                          className="h-full text-[#c5a47e] w-full object-cover object-center ease-in-out duration-500 hover:scale-105"
+                          className="h-full text-[#c5a47e] w-full object-cover object-center ease-in-out duration-500 group-hover:scale-105"
                           src="https://duruthemes.com/demo/html/archsan/light/images/projects/07.jpg"
                           alt=""
                         />
-                      </div>
+                      
 
                       <div
                         className="absolute bg-[#fff] py-[25px] pe-[25px] ps-[15px] left-0 bottom-5 ease-in-out duration-500
                          translate-x-[-110%] group-hover:translate-x-0 "
                       >
                         <div
-                          className="relative text-xs leading-3 tracking-widest font-normal text-[#c5a47e] border-bottom 
+                          className="relative text-xs leading-3 tracking-widest font-normal text-[#c5a47e]
              flex items-center pt-[5px] pb-[15px] ps-[15px]"
                         >
                           {" "}
@@ -321,24 +334,24 @@ const ProjectPage = () => {
               </SplideSlide>
 
               <SplideSlide>
-                {/* Item 1 */}
+                {/* Item 2 */}
                 <div className=" w-358.667px float-left me-5 min-h-[1px] relative">
                   <div className="mb-6 w-full">
-                    <div className="relative overflow-hidden group">
-                      <div className="relative w-full mb-5">
+                    <div className="relative overflow-hidden mb-5 group">
+                      
                         <img
-                          className="h-full text-[#c5a47e] w-full object-cover  object-center ease-in-out duration-500 hover:scale-105"
+                          className="h-full text-[#c5a47e] w-full object-cover  object-center ease-in-out duration-500 group-hover:scale-105"
                           src="https://duruthemes.com/demo/html/archsan/light/images/projects/12.jpg"
                           alt=""
                         />
-                      </div>
+                      
 
                       <div
                         className="absolute bg-[#fff] py-[25px] pe-[25px] ps-[15px] left-0 bottom-5 ease-in-out duration-500
                          translate-x-[-110%] group-hover:translate-x-0 "
                       >
                         <div
-                          className="relative text-xs leading-3 tracking-widest font-normal text-[#c5a47e] border-bottom 
+                          className="relative text-xs leading-3 tracking-widest font-normal text-[#c5a47e]
              flex items-center pt-[5px] pb-[15px] ps-[15px]"
                         >
                           {" "}
@@ -363,21 +376,21 @@ const ProjectPage = () => {
                 {/* Item 1 */}
                 <div className=" w-358.667px float-left me-5 min-h-[1px] relative">
                   <div className="mb-6 w-full">
-                    <div className="relative overflow-hidden group">
-                      <div className="relative w-full mb-5">
+                    <div className="relative overflow-hidden mb-5 group">
+                      
                         <img
-                          className="h-full text-[#c5a47e] w-full object-cover  object-center ease-in-out duration-500 hover:scale-105"
+                          className="h-full text-[#c5a47e] w-full object-cover  object-center ease-in-out duration-500 group-hover:scale-105"
                           src="https://duruthemes.com/demo/html/archsan/light/images/projects/10.jpg"
                           alt=""
                         />
-                      </div>
+                      
 
                       <div
                         className="absolute bg-[#fff] py-[25px] pe-[25px] ps-[15px] left-0 bottom-5 ease-in-out duration-500
                          translate-x-[-110%] group-hover:translate-x-0 "
                       >
                         <div
-                          className="relative text-xs leading-3 tracking-widest font-normal text-[#c5a47e] border-bottom 
+                          className="relative text-xs leading-3 tracking-widest font-normal text-[#c5a47e] 
              flex items-center pt-[5px] pb-[15px] ps-[15px]"
                         >
                           {" "}
@@ -402,21 +415,21 @@ const ProjectPage = () => {
                 {/* Item 1 */}
                 <div className=" w-358.667px float-left me-5 min-h-[1px] relative">
                   <div className="mb-6 w-full">
-                    <div className="relative overflow-hidden group">
-                      <div className="relative w-full mb-5">
+                    <div className="relative overflow-hidden mb-5 group">
+                      
                         <img
-                          className="h-full text-[#c5a47e] w-full object-cover  object-center ease-in-out duration-500 hover:scale-105"
+                          className="h-full text-[#c5a47e] w-full object-cover  object-center ease-in-out duration-500 group-hover:scale-105"
                           src="https://duruthemes.com/demo/html/archsan/light/images/projects/11.jpg"
                           alt=""
                         />
-                      </div>
+                      
 
                       <div
                         className="absolute bg-[#fff] py-[25px] pe-[25px] ps-[15px] left-0 bottom-5 ease-in-out duration-500
                          translate-x-[-110%] group-hover:translate-x-0 "
                       >
                         <div
-                          className="relative text-xs leading-3 tracking-widest font-normal text-[#c5a47e] border-bottom 
+                          className="relative text-xs leading-3 tracking-widest font-normal text-[#c5a47e] 
              flex items-center pt-[5px] pb-[15px] ps-[15px]"
                         >
                           {" "}
@@ -441,21 +454,21 @@ const ProjectPage = () => {
                 {/* Item 1 */}
                 <div className=" w-358.667px float-left me-5 min-h-[1px] relative">
                   <div className="mb-6 w-full">
-                    <div className="relative overflow-hidden group">
-                      <div className="relative w-full mb-5">
+                    <div className="relative overflow-hidden mb-5 group">
+                      
                         <img
                           className="h-full text-[#c5a47e] w-full object-cover  object-center ease-in-out duration-500 hover:scale-105"
                           src="https://duruthemes.com/demo/html/archsan/light/images/projects/08.jpg"
                           alt=""
                         />
-                      </div>
+                     
 
                       <div
                         className="absolute bg-[#fff] py-[25px] pe-[25px] ps-[15px] left-0 bottom-5 ease-in-out duration-500
                          translate-x-[-110%] group-hover:translate-x-0 "
                       >
                         <div
-                          className="relative text-xs leading-3 tracking-widest font-normal text-[#c5a47e] border-bottom 
+                          className="relative text-xs leading-3 tracking-widest font-normal text-[#c5a47e]
              flex items-center pt-[5px] pb-[15px] ps-[15px]"
                         >
                           {" "}
@@ -480,21 +493,21 @@ const ProjectPage = () => {
                 {/* Item 1 */}
                 <div className=" w-358.667px float-left me-5 min-h-[1px] relative">
                   <div className="mb-6 w-full">
-                    <div className="relative overflow-hidden group">
-                      <div className="relative w-full mb-5">
+                    <div className="relative overflow-hidden mb-5 group">
+                      
                         <img
                           className="h-full text-[#c5a47e] w-full object-cover  object-center ease-in-out duration-500 hover:scale-105"
                           src="https://duruthemes.com/demo/html/archsan/light/images/projects/09.jpg"
                           alt=""
                         />
-                      </div>
+                      
 
                       <div
                         className="absolute bg-[#fff] py-[25px] pe-[25px] ps-[15px] left-0 bottom-5 ease-in-out duration-500
                          translate-x-[-110%] group-hover:translate-x-0 "
                       >
                         <div
-                          className="relative text-xs leading-3 tracking-widest font-normal text-[#c5a47e] border-bottom 
+                          className="relative text-xs leading-3 tracking-widest font-normal text-[#c5a47e]
              flex items-center pt-[5px] pb-[15px] ps-[15px]"
                         >
                           {" "}

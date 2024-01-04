@@ -80,7 +80,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" bottom mb-[30px] px-[15px]">
+        <div className=" bottom mt-[45px] py-[30px] pb-[20px]">
           <div className=" container">
             <div className=" grid grid-cols-12 items-center">
               <div className=" col-span-12 md:col-span-4 mb-3 md:mb-0 ">
