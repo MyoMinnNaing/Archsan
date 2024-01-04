@@ -12,8 +12,13 @@ const Project = () => {
     <div className="min-h-screen">
       <LineWrapper />
       <Header />
+<<<<<<< HEAD
       {/* <Project01/> */}
       <ProjectPage />
+=======
+      <Project01/>
+      {/* <ProjectPage /> */}
+>>>>>>> f6fc845386db04ff75a1e6f61020141d6fa9d86f
       {/* <Project03 /> */}
       <ToDiscuss />
       <Footer />

@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Oswald:wght@300;400;500;600&display=swap");
 @import "../node_modules/animate.css/animate.min.css";
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
+<<<<<<< HEAD
 
+=======
+>>>>>>> f6fc845386db04ff75a1e6f61020141d6fa9d86f
 
+@font-face {
+  font-family: "thermify";
+  src: url(/fonts/themify.ttf);
+}
 
 @font-face {
   font-family: "thermify";
@@ -33,7 +40,11 @@
 
 /* Landing page custom css */
 .splide__slide {
+<<<<<<< HEAD
   height: 490px;
+=======
+  height: 786px;
+>>>>>>> f6fc845386db04ff75a1e6f61020141d6fa9d86f
 }
 
 .splide__slide .slide {
@@ -136,6 +147,7 @@
   opacity: 0.8;
 }
 
+<<<<<<< HEAD
 
 .splide__arrow.is-active {
   background-color: #fff;
@@ -145,4 +157,8 @@
 .active {
   color: #c5a47efc;
 
+=======
+.active {
+  color: #c5a47efc;
+>>>>>>> f6fc845386db04ff75a1e6f61020141d6fa9d86f
 }
