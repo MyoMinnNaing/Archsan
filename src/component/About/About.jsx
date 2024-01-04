@@ -3,12 +3,12 @@ import AboutPart from "./AboutPart";
 import Footer from "../Contact/Footer";
 import ToDiscuss from "../Contact/ToDiscuss";
 import Home from "../Home/Home";
-import LineWrapper from "../UI/LineWrapper";
 import Header from "../UI/Header";
+import LineWrapper from "../UI/LineWrapper";
 
 const About = () => {
   return (
-    <div className="min-h-screen">
+    <div className="relative">
       <LineWrapper />
       <Header />
       <AboutPart />

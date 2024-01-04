@@ -30,18 +30,18 @@ const ToDiscuss = () => {
                     <input
                       type="text"
                       placeholder="Full Name *"
-                      className=" w-full bg-transparent border-b placeholder:text-white font-normal text-white focus-visible:outline-none py-[15px] mb-5 md:mb-0  text-[15px]  "
+                      className=" w-full bg-transparent  border-t-transparent  border-x-transparent focus:border-t-transparent focus:border-x-transparent focus:border-b-white focus:ring-0   placeholder:text-white font-normal text-white  py-[15px] mb-5 md:mb-0  text-[15px]  "
                     />
                   </div>
                   <div className=" col-span-12 md:col-span-3">
                     <input
                       type="text"
                       placeholder="Phone *"
-                      className=" w-full bg-transparent border-b placeholder:text-white font-normal text-white focus-visible:outline-none py-[15px] mb-5 md:mb-0   text-[15px]  "
+                      className=" w-full bg-transparent  border-t-transparent  border-x-transparent focus:border-t-transparent focus:border-x-transparent focus:border-b-white focus:ring-0   placeholder:text-white font-normal text-white  py-[15px] mb-5 md:mb-0  text-[15px]  "
                     />
                   </div>
                   <div className=" col-span-12 md:col-span-3">
-                    <button className=" px-[30px] py-[10px] rounded-full text-[15px] bg-[#c5a47efc] text-white hover:bg-white border hover:border-[#c5a47efc] mb-5 md:mb-0 duration-300 hover:text-[#c5a47efc]">
+                    <button className=" px-[30px] py-[10px] border rounded-full text-[15px] bg-[#c5a47efc] text-white hover:bg-transparent  hover:border-[#c5a47efc] mb-5 md:mb-0 duration-300 hover:text-[#c5a47efc]">
                       Send
                     </button>
                   </div>
