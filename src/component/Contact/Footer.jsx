@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="  pt-[90px]">
+    <footer className="  pt-[120px]">
       <div className=" container">
         <div className=" top mb-10 md:mb-0">
           <div className=" grid grid-cols-12">
@@ -80,7 +80,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" bottom mb-[30px] px-[15px]">
+        <div className=" bottom mt-[45px] py-[30px] pb-[20px]">
           <div className=" container">
             <div className=" grid grid-cols-12 items-center">
               <div className=" col-span-12 md:col-span-4 mb-3 md:mb-0 ">
