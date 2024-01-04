@@ -7,14 +7,16 @@ import Testimonials from "./Testimonials";
 import Gallery from "../Gallery/Gallery";
 import Contact from "../Contact/Contact";
 import LineWrapper from "../UI/LineWrapper";
+import Project02 from "../Project/Project02";
 
 const Home = () => {
   return (
     <div className=" relative">
-      <LineWrapper/>
+      <LineWrapper />
       <Header />
       <LandingPage />
       <AboutArchsan />
+      <Project02 />
       <Testimonials />
       <Footer />
     </div>
