@@ -22,7 +22,7 @@ const ServicePart = () => {
         <div className="col-span-8 mb-[30px] ps-3 pe-3">
           <div className="grid lg:grid-row-12">
             <div className=" row-span-3">
-              <div className="font-heading text-[#1b1b1b] text-4xl font-normal mb-7 tracking-wider leading-6 [word-spacing:5px]">
+              <div className="font-heading text-[#1b1b1b] text-4xl font-normal mb-7 tracking-wider leading-6  w-full [word-spacing:5px]">
                 OUR{" "}
                 <span className="text-[#c5a47e] tracking-wider">SERVICES</span>
               </div>
